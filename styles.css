@@ -1,0 +1,52 @@
+body {
+    color: #65603f;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #adeecf;
+    text-align: center;
+    background-image: url('image.jpg'); /* Ensure this is the correct path to your image */
+    background-repeat: no-repeat;
+    background-size: cover; /* This will ensure the image covers the entire background */
+    background-position: center;
+}
+
+.content {
+    background-color: rgba(243, 234, 234, 0.8); /* White background with opacity */
+    padding: 50px; /* Adjusted padding for more space inside the content */
+    border-radius: 20px; /* Rounded corners */
+    border: 19px solid #7ea339; /* Border with complementary color */
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%; /* Adjust the width as per your design */
+    max-width: 1000px; /* Maximum width for larger screens */
+}
+
+#heading {
+    font-size: 2.5em; /* Larger text size */
+    color: #7ea339; /* Complementary color */
+    margin-bottom: 10px; /* Adjusted margin bottom for the heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    font-weight: bold; /* Make text bold */
+}
+
+button {
+    background-color: #28a745; /* Green color */
+    color: #000000; /* Black text color */
+    border: none;
+    padding: 12px 24px; /* Increased padding for larger buttons */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; /* Increased font size */
+    margin: 8px 4px; /* Increased margin for buttons */
+    cursor: pointer;
+    border-radius: 5px; /* Optional: to make the button edges rounded */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green for hover effect */
+}
+
+#step1, #step2, #step3, #startagain {
+    margin-top: 20px; /* Increased margin top for steps */
+}
